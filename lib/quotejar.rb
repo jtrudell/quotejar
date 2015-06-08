@@ -1,6 +1,6 @@
 require 'yaml'
-require './lib/quotejar/age'
-require './lib/quotejar/kids'
+require './lib/quotejar/age.rb'
+require './lib/quotejar/kids.rb'
 
   def load_kid(name) # loads kid object from .yaml file
     File.open("./#{name}.yaml", 'r') do |file|
@@ -12,6 +12,7 @@ require './lib/quotejar/kids'
     include Age
     puts "A file for this child doesn't exist. Do you want to add the child?"
     puts "Type 'Y' for yes or 'N' for no, which will return you to the beginning."
+    puts "Type 'Q' to quit."
     prompt
     answer = gets.chomp.downcase
     if answer == 'y'
@@ -20,8 +21,10 @@ require './lib/quotejar/kids'
       kid.save_kid
       puts "We've created a file for #{name}. Now what would you like to do?"
       kid.options
-    else
+    elsif answer == 'n'
       start
+    else
+      puts "Goodbye!"    
     end
   end
 
