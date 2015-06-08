@@ -7,7 +7,7 @@ including the date quoted and the age the child (or enemy) was when quoted.
 
 To install from the command line: gem install 'quotejar'
 
-Once installed, in IRB enter require 'quotejar' and then 'start'.
+Once installed, in IRB enter "require 'quotejar'", and then enter "start".
 You will be prompted to enter a child's name. If you have entered information
 for this childed previously, you will be prompted to enter a new quote or list
 all quotes saved for that child. If the child has not been stored previously,
@@ -22,3 +22,4 @@ If you get booted out of the program during an IRB session, typing 'start' will 
 ## Features To Come
 
 - Ability to search quotes by date or age
+- Better tests
