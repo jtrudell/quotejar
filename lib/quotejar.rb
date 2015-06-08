@@ -1,7 +1,6 @@
-module QuoteJar
 require 'yaml'
-require './quotejar/age.rb'
-require './quotejar/kids.rb'
+require './lib/quotejar/age'
+require './lib/quotejar/kids'
 
   def load_kid(name) # loads kid object from .yaml file
     File.open("./#{name}.yaml", 'r') do |file|
@@ -36,5 +35,5 @@ require './quotejar/kids.rb'
     create_kid(name)
     end
   end
-  start
-end
+
+start

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Saves quotes from your kids. Also saves paper.}
   spec.description   = %q{Saves quites from your kids (or anyone) and includes the age of the kid when quoted.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/jtrudell/quotejar"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
