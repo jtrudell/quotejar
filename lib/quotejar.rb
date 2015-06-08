@@ -35,5 +35,3 @@ require './lib/quotejar/kids'
     create_kid(name)
     end
   end
-
-start
