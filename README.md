@@ -1,39 +1,24 @@
-# Quotejar
+# QuoteJar
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/quotejar`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'quotejar'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install quotejar
+QuoteJar let's you easily store the cute things your kids say (or the awful things your enemies say),
+including the date quoted and the age the child (or enemy) was when quoted. 
 
 ## Usage
 
-TODO: Write usage instructions here
+To install from the command line: gem install 'quotejar'
 
-## Development
+Once installed, run IRB from the command line enter: require 'quotejar'
+You will be prompted to enter a child's name. If you have entered information
+for this childed previously, you will be prompted to enter a new quote or list
+all quotes saved for that child. If the child has not been stored previously,
+you will be prompted to save the child by entering the child's birthday, and
+then will be able to enter new quotes.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
+Creating a new child will create a .yaml file to start that child's name, birthday and quotes.
+Creating new entries for an existing child will update that child's .yaml file.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+If you get booted out of the program during an IRB session, typing 'start' will begin QuoteJar again. 
 
-## Contributing
+## Features To Come
 
-1. Fork it ( https://github.com/[my-github-username]/quotejar/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+- Ability to search quotes by date or age
