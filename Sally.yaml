@@ -1,4 +1,10 @@
 --- !ruby/object:Kids
 name: Sally
-birth_date: 2015-06-08 15:48:06.834864000 -05:00
-quotes: {}
+birth_date: 2015-06-08 16:00:28.742821000 -05:00
+quotes:
+  2015-06-08 16:02:19.402014000 -05:00:
+  - This is my first gem
+  - 3.5065782252135778e-06
+  2003-05-13 00:00:00.000000000 -05:00:
+  - I said this before I was even born!
+  - -12.073010265128557
