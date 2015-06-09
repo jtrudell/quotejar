@@ -14,8 +14,10 @@ all quotes saved for that child. If the child has not been stored previously,
 you will be prompted to save the child by entering the child's birthday, and
 then will be able to enter new quotes.
 
-Creating a new child will create a .yaml file to start that child's name, birthday and quotes.
+Creating a new child will create a .yaml file to store that child's name, birthday and quotes.
 Creating new entries for an existing child will update that child's .yaml file.
+Note: The .yaml file will be created in the directory where you have started your IRB session. Make sure
+you use the same directory each time if you want to load previously create .yaml files.
 
 If you get booted out of the program during an IRB session, typing 'start' will begin QuoteJar again. 
 
@@ -23,6 +25,7 @@ If you get booted out of the program during an IRB session, typing 'start' will 
 
 - Ability to search quotes by date or age
 - Better tests
+- User to specify where to store .yaml files for each child
 
 ## Contributing
 
