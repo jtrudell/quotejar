@@ -1,6 +1,6 @@
 require 'yaml'
-require './lib/quotejar/age.rb'
-require './lib/quotejar/kids.rb'
+require_relative './quotejar/age.rb'
+require_relative './quotejar/kids.rb'
 
   def load_kid(name) # loads kid object from .yaml file
     File.open("./#{name}.yaml", 'r') do |file|
