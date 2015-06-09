@@ -38,3 +38,4 @@ require_relative './quotejar/kids.rb'
     create_kid(name)
     end
   end
+  
