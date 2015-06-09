@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/jtrudell/quotejar"
   spec.license       = "MIT"
 
-  spec.files         = ["git ls-files".split($/), "lib/quotejar/age.rb"]
+  spec.files         = `git ls-files`.split($/)
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
